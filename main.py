@@ -84,8 +84,8 @@ def main():
     print("Finding intersections between f(x) = x^3 and g(x) = 3^x...\n")
     
     # Define the two functions.
-    func1 = lambda x: x**3
-    func2 = lambda x: 3**x
+    func1 = lambda x: x**10
+    func2 = lambda x: np.exp(x) 
 
     # Create an instance of IntersectionFinder.
     finder = IntersectionFinder(func1, func2)
